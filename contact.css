@@ -1,0 +1,480 @@
+html body{
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar Section Start */
+.topnav {
+  overflow:hidden;
+  background-color: rgb(250,105,2);
+}
+.topnav{
+  position:fixed;
+  top: 0%;
+  width: 100%;
+  z-index: 2;
+}
+.active{
+  cursor: default;
+  user-select:none;
+  margin-left: 7%;
+  font-variant: small-caps;
+  margin-top: 6px;
+}
+.navlogo-one{
+  color: black;
+  text-decoration: underline white 2px;
+}
+.navlogo-two{
+  color: white;
+  text-decoration: underline black 2px;
+}
+.topnav a{
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 19px 16px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.topnav .nav-link{
+  margin-left: 7%;
+  font-variant: small-caps;
+  font-size:x-large;
+  padding-top: 1.5%;
+}
+.topnav  a:hover{
+  color: white;
+  text-decoration: underline;
+}
+.topnav a.active{
+  background-color: rgb(250,105,2);
+  color: white;
+  font-size: xx-large;
+  text-decoration: none;
+  padding: 0.3%;
+
+}
+.topnav .icon{
+  display: none;
+}
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+/* Navbar Section End */
+
+
+
+
+
+/* Achivement Banner Section Start */
+.aboutbannermain img{
+  height: 450px;
+  margin-top: 59px;
+  width: 100%;
+}
+/* Achivement Banner Section End */
+
+
+
+
+
+
+/* Achivement Contact Form Section Start */
+.contactsec{
+    width: 85%;
+    height: 830px;
+    background-color: white;
+    font-variant: small-caps;
+    margin-left: 7.5%;
+    padding-top: 65px;
+}
+.contactformmain h1{
+  font-size: xxx-large;
+  text-align: center;
+  color: rgb(250,105,2);
+}
+.contactform-one{
+    width: 40%;
+    height: 450px;
+    margin-left: 2.5%;
+    float: left;
+    padding-top: 30px;
+}
+.contactform-one h5{
+    font-variant: small-caps;
+    margin-top: -15px;
+    margin-bottom: 20px;
+    font-size: xx-large;
+}
+.contactform-one h4{
+    color: rgb(250,105,2);
+    font-size: x-large;
+    font-variant: small-caps;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.contactform-one i{
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    height: 50px;
+    width: 20px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 20px;
+    background-color: rgb(250,105,2);
+    float: left;
+    color: white;
+}
+.contactform-one i:hover{
+    color: rgb(250,105,2);
+    background-color: black;
+}
+.contactform-one p{
+    margin-left: 32px;
+    font-size: medium;
+    font-family:'Times New Roman', Times, serif;
+}
+.contactform-one h3{
+    font-size: large;
+    padding-top: 10px;
+    font-variant: small-caps;
+}
+.timeofinfo-one{
+    border-top: solid 1.5px rgb(226, 211, 211);
+    border-right: solid 1.5px rgb(226, 211, 211);
+    border-bottom: dotted 2px rgb(226, 211, 211);
+    border-left: solid 1.5px rgb(226, 211, 211);
+    border-radius: 4px;
+}
+.timeofinfo-two{
+    border-right: solid 1.5px rgb(226, 211, 211);
+    border-bottom: dotted 2px rgb(226, 211, 211);
+    border-left: solid 1.5px rgb(226, 211, 211);
+    border-radius: 4px;
+}
+.timeofinfo-three{
+    border-right: solid 1.5px rgb(226, 211, 211);
+    border-bottom: solid 1.5px rgb(226, 211, 211);
+    border-left: solid 1.5px rgb(226, 211, 211);
+    border-radius: 4px;
+}
+.contactform-two{
+    width: 52.5%;
+    height: 670px;
+    margin-left: 2.5%;
+    float: left;
+    padding-top: 30px;
+}
+.contactform-two h5{
+  font-variant: small-caps;
+  margin-top: -15px;
+  margin-bottom: 20px;
+  font-size: xx-large;
+}
+.contactform-two h6{
+  font-variant: small-caps;
+  font-size: large;
+}
+.contactform-two h4{
+  color: rgb(250,105,2);
+  font-size: x-large;
+  font-variant: small-caps;
+  margin-top: 10px;
+  margin-bottom: 15px; 
+}
+.contactform-two input{
+  width: 100%;
+  border-color: rgb(226, 211, 211) 1px ;
+  margin-bottom: 10px;
+  font-size: medium;
+  padding: 5px;
+}
+.contactform-two select{
+  width: 100%;
+  border-color: rgb(226, 211, 211) 1px;
+  margin-bottom: 20px;
+  font-size: medium;
+  padding: 5px;
+}
+.contactform-two textarea{
+  width: 100%;
+  min-height: 50px;
+  max-height: 100px;
+  border-color: rgb(226, 211, 211) 1px;
+  margin-bottom: 20px;
+  font-size: medium;
+  padding: 5px;
+}
+.link-btn{
+  margin-top: 0.2rem;
+  margin-left: 10px;
+  display: inline-block;
+  border: none;
+  padding: 4px 57px;
+  background: rgb(250,105,2);
+  color: #fff;
+  cursor: pointer;
+  border-radius: .3rem;
+  font-size: 1.2rem;
+  text-transform:capitalize;
+}
+.link-btn:hover {
+  background: black;
+  color: #ff5421;
+}
+#msg{
+  color: green;
+  margin-top: -10px;
+  margin-left: 90px;
+  display: block;
+  font-variant: small-caps;
+}
+.contactformmain{
+    background: url(img/BOR1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 830px; 
+}
+/* Achivement Contact Form Section End */
+
+
+
+
+
+
+/* Achivement Address Section Start */
+.address-one{
+  margin-left: 7.5%;
+  margin-top: 150px;
+  width: 25%;
+  height: 400px;
+  float: left;
+}
+.address-one h4{
+  color: rgb(250,105,2);
+  font-size: large;
+  font-variant: small-caps;
+  padding-top: 0px;
+  margin-bottom: 15px;
+}
+.address-one h5{
+  font-variant: small-caps;
+  margin-top: -15px;
+  margin-bottom: 10px;
+  font-size: x-large;
+}
+.address-one span{
+  color: rgb(250,105,2);
+  font-variant: small-caps;
+  font-size: large;
+}
+.address-one p{
+  font-size: medium;
+  height: 5px;
+}
+.phone{
+  margin-top: 25px;
+}
+.address-one-sub{
+  margin-top: 45px;
+  width: 100%;
+  height: 150px;
+}
+.address-one-sub ul{
+  list-style-type: none;
+  display: inline-flex;
+  margin-left: -20px;
+}
+.address-one-sub ul li{
+  margin-left: 25px;
+  font-size: 50px;
+  color: white;
+}
+.address-one-sub ul li:hover{
+  color: rgb(250,105,2);
+}
+.address-two{
+  border: solid 4px white;
+  border-radius: 3px;
+  width: 55%;
+  margin-left: 5%;
+  height: 415px;
+  float: left;
+  margin-top: 150px;
+}
+.map{
+  height: 407px;
+  width: 100%;
+}
+.adsressmain{
+  background: url(img/BBL1.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 700px; 
+  color: white;
+}
+/* Achivement Address Section End */
+
+
+
+
+
+
+/* Footer Section Start */
+.footer{
+  float: left;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+.footer h2{
+  color: white;
+  font-variant: small-caps;
+  font-size: x-large;
+  text-decoration: underline black 2px;
+  border-bottom: 2px;
+}
+.footer a{
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  font-size: 40px;
+}
+.footer a:hover{
+  color: white;
+  cursor: pointer;
+}
+.footer ul li{
+  list-style-type: none;
+}
+.footer-one{
+  height: 50px;
+  width: 20%;
+  margin-left: 7.5%;
+}
+.footer-one, a{
+  text-decoration: none;
+  text-align: left;
+  list-style-type: none;
+  padding-top: px;
+  font-variant: small-caps;
+  font-size: xx-large;
+  cursor: default;
+  user-select: none;
+}
+.footer-one a:hover{
+  text-decoration: none;
+}
+.flogo-one{
+  color: black;
+  text-decoration: underline 3px solid white;
+}
+.flogo-two{
+  color: white;
+  text-decoration: underline 3px solid black;
+}
+.footer-two{
+  height: 150px;
+  width: 20%;
+  font-size: small;
+  margin-left: 3%;
+}
+.footer-two a{
+  font-size: large;
+} 
+.footer-three{
+  height: 150px;
+  width: 20%;
+  font-size: small;
+  margin-left: 3%;
+}
+.footer-three a{
+  font-size: large;
+} 
+.footer-four{
+  height: 150px;
+  width: 20%;
+  margin-left: 3%;
+}
+.footer-four i{
+  margin-right: 5%;
+}
+.footer-four a{
+  font-size: large;
+} 
+.footermain{
+  background: url(img/BOR1.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 200px;
+  box-shadow: inset 0 20px 20px 0px rgba(14, 13, 13, 0.2);
+}
+.recivedmain{
+  text-align: center;
+  background: url(img/BOR1.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 40px;
+}
+/* Footer Section End */
+
+
+
+
+
+
+/* Scroll-up Section Start */
+html {
+  scroll-behavior:smooth;
+}
+body {
+  position: relative;
+}
+.scroll-container {
+  position: absolute;
+  top: 0;
+  right:2%;
+  height: 100%;
+  padding: 1.5%; 
+}
+.scroll-container:before {
+  content: '';
+  display: block;
+  height: 100vh;
+  pointer-events: none;
+}
+.scroll-container a {
+  position: sticky;
+  top: 88vh;
+  cursor: pointer;
+  font-size: 30px;
+  font-variant: small-caps;
+  color: white;
+}
+.scroll-container a:hover{
+  color: rgb(250,105,2);
+  border: solid 1.75px rgb(250,105,2);
+}
+/* Scroll-up Section End */
